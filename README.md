@@ -33,5 +33,5 @@ To clone this project to your local folder, you will first need to install git. 
 To access this project, you will need to clone it.
 Use this command in your terminal. git clone https://github.com/ugiriwabo/Pig-dice
 
-#Licence
+# Licence
 This project is under the MIT licence Copyright©2018 Pig-dice
