@@ -15,3 +15,14 @@ CSS and Bootsrap
 JavaScript and jQuery
 Git
 
+# Program Behaviour
+| Behaviour        | Input                                      | Result(output) |
+|------------------|--------------------------------------------|----------------|
+| User rolls a 1   | Loses the round score and loses their turn | 0              |
+| User rolls a 2   | 2 is added to the score                    | 2              |
+| User rolls a 3   | 3 is added to the score                    | 3              |
+| User rolls a 4   | 4 is added to the score                    | 4              |
+| User rolls a 5   | 5 is added to the score                    | 5              |
+| User rolls a 6   | 6 is added to the score                    | 6              |
+| User reaches 100 | 100                                        | Winner!!       |
+
