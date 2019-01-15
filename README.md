@@ -26,3 +26,6 @@ Git
 | User rolls a 6   | 6 is added to the score                    | 6              |
 | User reaches 100 | 100                                        | Winner!!       |
 
+# Prerequisites
+To clone this project to your local folder, you will first need to install git. Use this command in your terminal $ sudo apt install git-all
+
