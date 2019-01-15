@@ -1,7 +1,7 @@
-# project or program name
+### project or program name
 Pig Dice
 
-### Author's Name
+## Author's Name
 Aline Consolee Ugiriwabo
 
 ## Description
