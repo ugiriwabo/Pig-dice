@@ -135,7 +135,7 @@ h1,h3 {
   background: white;
 }
 
-#game-board {
+#game-board { 
   border: 1px solid black;
   position: relative;
   display: flex;
