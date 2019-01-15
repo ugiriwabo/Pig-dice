@@ -29,3 +29,7 @@ Git
 # Prerequisites
 To clone this project to your local folder, you will first need to install git. Use this command in your terminal $ sudo apt install git-all
 
+# Setup
+To access this project, you will need to clone it.
+Use this command in your terminal. git clone https://github.com/ugiriwabo/Pig-dice
+
