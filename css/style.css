@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+  font-size: 1.2em;
+  background: linear-gradient(to right, #373b44, #4286f4);
+  font-family: Text Me One;
+  font-weight: 700;
+  padding-top: 10px;
+  float: center;
+}
+
+#description{
+  background: whitesmoke;
+  border-radius: 9px;
+  text-align: center;
+  padding: 30px;
+}
+
+form {
+  text-align: center;
+}
+
+form .form-group {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#game #gameplay {
+  cursor: pointer;
+}
+
+#gameplay:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Bungee Shade;
+  color: white;
+}
+
+.col-md-4,.col-md-3 {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 9px;
+  background: whitesmoke; 
+}
+
+.col-md-3 {
+  height: 200px;
+}
+
+.col-md-4 {
+  height: 350px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1,h3 {
+  text-align: center;
+}
+
+#game {
+  display: none;
+  padding: 0;
+} 
+
+#game .row {
+  margin-top: 3%;
+}
+
+#rematch {
+  display: none;
+}
+
+.winner {
+  color: crimson;
+}
+
+#announcer {
+  font-size: 34px;
+}
+
+.gameplay {
+  display: none;
+}
+
+.roundScore {
+  text-align: center;
+}
+
+.row {
+  position: relative;
+}
+
+.globalScoreDisplay1, .globalScoreDisplay2 {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.notPlaying {
+  opacity: 0.78;
+}
+
+.btn-play {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #3498db;
+  outline-style: none;
+}
+
+.btn-play:hover {
+  background: white;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+.btn {
+  color: white;
+  background: #4286f4;
+  border: 1px solid #4286f4;
+}
+
+.btn:hover {
+  color: #4286f4;
+  background: white;
+}
+
+#game-board {
+  border: 1px solid black;
+  position: relative;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 0;
+  left: 105px;
+  text-align: center;
+}
+
+#dice-display { 
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#new-buttons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-dangerous {
+  color: white;
+  background: crimson;
+  border: 1px solid crimson;
+}
+
+.btn-dangerous:hover{
+  color: crimson;
+  background: white;
+}
+
+.btn-warnings {
+  color:#4286f4;
+  background: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  body {
+    margin: 0 auto;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
